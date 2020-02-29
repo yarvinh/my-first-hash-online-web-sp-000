@@ -28,7 +28,7 @@ amount << element[-1]
  item << element[0]
 end
 item
-amount
+# amount
 
 end
 
