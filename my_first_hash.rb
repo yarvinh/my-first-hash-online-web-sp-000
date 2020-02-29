@@ -15,16 +15,15 @@ end
 
 def retrieval
   shipping_manifest = {
-                  # "whale bone corsets" => 5,
-                  # "porcelain vases" => 2,
-                  # "oil paintings" => 3
-                  "whale bone corsets" => 1,
-                  "porcelain vases" => 1,
-                  "oil paintings" => 1
+                  "whale bone corsets" => 5,
+                  "porcelain vases" => 2,
+                  "oil paintings" => 3
                  }
 
   # Look up the value of the "oil paintings" key in the shipping_manifest hash below
-    shipping_manifests
+    shipping_manifests.map {|item|
+      item
+    }
 end
 
 def adding
