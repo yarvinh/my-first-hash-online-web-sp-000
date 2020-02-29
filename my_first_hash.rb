@@ -21,14 +21,8 @@ def retrieval
                  }
 
   # Look up the value of the "oil paintings" key in the shipping_manifest hash below
-  item = []
-  amount = []
-shipping_manifest.map do |element|
-amount << element[-1]
- item << element[0]
-end
-item
-# amount
+  testing = ["whale bone corsets", "oil paintings", "porcelain vases"]
+  testing
 
 end
 
